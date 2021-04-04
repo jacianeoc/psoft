@@ -1,6 +1,6 @@
 public class Pedestre  implements  Transpote{
     @Override
-    public String tipoDeTransporte() {
-        return "Pedestre";
+    public String calculaRota(){
+        return "Calculando a rota de pedestre...";
     }
 }

@@ -1,6 +1,6 @@
 public class Onibus implements  Transpote{
     @Override
-    public String tipoDeTransporte() {
-        return "Onibus";
+    public String calculaRota() {
+        return "Calculando a rota de onibus...";
     }
 }

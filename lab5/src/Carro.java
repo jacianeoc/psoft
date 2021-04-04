@@ -1,6 +1,6 @@
 public class Carro implements  Transpote{
     @Override
-    public String tipoDeTransporte() {
-        return "Carro";
+    public String calculaRota() {
+        return "Calculando a rota de carro...";
     }
 }

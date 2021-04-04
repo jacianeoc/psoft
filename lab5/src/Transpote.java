@@ -1,4 +1,4 @@
 public interface Transpote {
 
-    public String tipoDeTransporte();
+    public String calculaRota();
 }

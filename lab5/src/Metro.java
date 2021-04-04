@@ -1,6 +1,6 @@
 public class Metro implements  Transpote{
     @Override
-    public String tipoDeTransporte() {
-        return "Metro";
+    public String calculaRota() {
+        return "Calculando a rota de carro...";
     }
 }
