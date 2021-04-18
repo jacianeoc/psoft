@@ -5,4 +5,4 @@ Especificação :
 
 ***
 
-Como solução, a utilização do padrão strategy feito pela classe controladora de transporte, dá ao usuário diferentes a possibilidade da mudança meios de transporte, e em relação ao código o uso  desse padrão possibilitou o não uso de condicionais, que poderia ser um problema caso a aplicação se desenvolvesse.
+Como solução, a utilização do padrão strategy feito pela classe controladora de transporte, dá ao usuário a possibilidade da mudança meios de transporte, e em relação ao código o uso  desse padrão possibilitou o não uso de condicionais, que poderia ser um problema caso a aplicação se desenvolvesse.
