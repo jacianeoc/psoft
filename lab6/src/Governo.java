@@ -46,4 +46,38 @@ public class Governo {
     public void addComobidadeHabilitadaParaVacinacao(String comobidade) {
         this.comobidadesHabilitadasParaVacinacao.add(comobidade);
     }
+
+    private boolean validaProfissoes(String profissao) {
+        if (profissoesHabilitadasParaVacinacao.contains(profissao)) {return true;}
+        else {
+            return false;
+        }
+
+    }
+    private boolean validaComobidade(String comobidade) {
+        if (comobidadesHabilitadasParaVacinacao.contains(comobidade)) {
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+    private boolean validaIdade(int idade) {
+        if (idade >= this.idadeMinimaParaVacinacao) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+
+    public boolean validaInformacoes(int idade, String profissao, String comobidades) {
+        if(validaIdade(idade) || validaComobidade(comobidades) || validaProfissoes(profissao)) return true;
+        else {
+            return false;
+        }
+
+    }
 }

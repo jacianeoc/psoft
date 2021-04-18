@@ -1,11 +1,18 @@
 public abstract class StatePessoa {
 
 
-    protected Governo governo;
+    protected   Pessoa pessoa;
 
-    public StatePessoa(Governo governo){
-        this.governo = governo;
+
+
+    public StatePessoa(Pessoa pessoa){
+
+        this.pessoa = pessoa;
     }
 
-    public abstract String vacinacao();
+    /**
+     * metodo situacao é utilizado para informar a situacao de qual etapa que uma pessoa se encotra
+     * @return
+     */
+    public abstract String situacaoEtapa();
 }
