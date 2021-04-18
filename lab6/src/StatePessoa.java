@@ -15,4 +15,7 @@ public abstract class StatePessoa {
      * @return
      */
     public abstract String situacaoEtapa();
+
+
+    public abstract  String toString();
 }

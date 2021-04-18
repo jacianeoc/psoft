@@ -6,7 +6,7 @@ Especificação : Implemente em Java um sistema de vacinação para a COVID-19, 
 ***
 
 * Cadastro de pessoas para aguardar a vez da vacinação (nome completo, CPF, endereço, número do cartão do SUS, e-mail,
-  teleforne, profissao, comobidades).
+  telefone, profissao, comobidades).
 * Alteração de dados do cadastro.
 * Cada pessoa se encontra em uma das seguintes situações:
     * Não habilitada para vacina

@@ -16,4 +16,12 @@ public class NaoHabilitado extends StatePessoa {
         pessoa.mudaStatePessoa(new HabilitadoPrimeiraDose(pessoa));
         return "habilitado a tomar a vacina";
     }
+
+    @Override
+    public String toString() {
+        if(!pessoa.getPrioridade()) return "não habilitado a tomar a vacina";
+
+        return "habilitado a tomar a vacina";
+    }
+
 }

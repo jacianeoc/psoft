@@ -8,4 +8,9 @@ public class HabilitadoPrimeiraDose extends StatePessoa {
         pessoa.mudaStatePessoa(new PrimeiraDose(pessoa));
         return "primeira dose :)";
     }
+
+    @Override
+    public String toString() {
+        return "habilitado a tomar a primeira dose";
+    }
 }

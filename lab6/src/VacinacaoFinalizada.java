@@ -7,4 +7,9 @@ public class VacinacaoFinalizada extends StatePessoa {
     public String situacaoEtapa() {
         return "vacianação de " + pessoa.getNome()+ " finalizada";
     }
+
+    @Override
+    public String toString() {
+        return  "vacianação de " + pessoa.getNome()+ " finalizada";
+    }
 }
